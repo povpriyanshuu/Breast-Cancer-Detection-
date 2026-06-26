@@ -5,6 +5,8 @@
 This project is a machine learning-based web application developed using **Python** and **Streamlit** to predict whether a breast tumor is **Benign** or **Malignant** based on diagnostic measurements.
 
 The application allows users to enter tumor characteristics through an interactive interface, processes the data using a trained machine learning model, and presents the prediction along with confidence scores and visual insights.
+The model is trained using the public dataset [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data).
+A live version of the application can be found on Streamlit Community Cloud...
 
 This project is intended for educational purposes to demonstrate the practical application of machine learning in healthcare and should not be used for clinical diagnosis.
 
