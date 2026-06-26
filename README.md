@@ -6,9 +6,6 @@ This project is a machine learning-based web application developed using **Pytho
 
 The application allows users to enter tumor characteristics through an interactive interface, processes the data using a trained machine learning model, and presents the prediction along with confidence scores and visual insights.
 
-The model is trained using the public dataset [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data).
-A live version of the application can be found on Streamlit Community Cloud
-
 ## References
 
 - Original demo:
