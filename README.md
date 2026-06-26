@@ -2,7 +2,7 @@
 
 ## Overview
 
-MedVision AI is a machine learning web application that predicts whether a breast tumor is **Benign** or **Malignant** using clinical diagnostic measurements.
+It is a machine learning web application that predicts whether a breast tumor is **Benign** or **Malignant** using clinical diagnostic measurements.
 
 The application is built with **Python**, **Streamlit**, and **Scikit-learn**, providing an easy-to-use interface for entering patient measurements and obtaining instant predictions along with confidence scores.
 
