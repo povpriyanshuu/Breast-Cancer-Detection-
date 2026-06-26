@@ -1,112 +1,85 @@
-# 🩺 – Breast Cancer Prediction System
+# Breast Cancer Diagnosis Predictor
 
 ## Overview
 
-It is a machine learning web application that predicts whether a breast tumor is **Benign** or **Malignant** using clinical diagnostic measurements.
+This project is a machine learning-based web application developed using **Python** and **Streamlit** to predict whether a breast tumor is **Benign** or **Malignant** based on diagnostic measurements.
 
-The application is built with **Python**, **Streamlit**, and **Scikit-learn**, providing an easy-to-use interface for entering patient measurements and obtaining instant predictions along with confidence scores.
+The application allows users to enter tumor characteristics through an interactive interface, processes the data using a trained machine learning model, and presents the prediction along with confidence scores and visual insights.
 
-> **Disclaimer:** This project is intended for educational and research purposes only. It should not be used as a substitute for professional medical diagnosis.
+This project is intended for educational purposes to demonstrate the practical application of machine learning in healthcare and should not be used for clinical diagnosis.
 
 ---
 
 ## Features
 
-- Interactive Streamlit Dashboard
-- Machine Learning Prediction
-- Prediction Confidence Score
-- Patient Input Form
-- Data Visualization
-- Responsive User Interface
-- Fast Real-Time Predictions
-
----
-
-## Technologies Used
-
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas
-- NumPy
-- Plotly
-- Matplotlib
+- Interactive Streamlit interface
+- Real-time prediction
+- Benign/Malignant classification
+- Prediction probability
+- Radar chart visualization
+- User-friendly dashboard
 
 ---
 
 ## Dataset
 
-This project uses the **Breast Cancer Wisconsin (Diagnostic) Dataset**, which contains diagnostic measurements extracted from digitized images of breast cell nuclei.
+The model is trained using the **Breast Cancer Wisconsin (Diagnostic)** dataset, a publicly available dataset widely used for machine learning research and educational projects.
+
+---
+
+## Installation
+
+Create a virtual environment:
+
+```bash
+conda create -n breast-cancer-diagnosis python=3.10
+```
+
+Activate it:
+
+```bash
+conda activate breast-cancer-diagnosis
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+Run the application using:
+
+```bash
+streamlit run app/main.py
+```
+
+The application will open in your browser, where you can enter diagnostic measurements and receive an instant prediction with visualization.
 
 ---
 
 ## Project Structure
 
 ```
-MedVision-AI/
-│
-├── app/
-├── assets/
-├── data/
-├── model/
-├── requirements.txt
-├── README.md
-└── app.py
+app/
+assets/
+data/
+model/
+README.md
+requirements.txt
 ```
 
 ---
 
-## Installation
+## Learning Note
 
-Clone the repository
-
-```bash
-git clone https://github.com/yourusername/MedVision-AI.git
-```
-
-Move into the project folder
-
-```bash
-cd MedVision-AI
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application
-
-```bash
-streamlit run app/main.py
-```
-
----
-
-## Future Improvements
-
-- Multiple ML model comparison
-- Explainable AI (SHAP)
-- PDF report generation
-- Patient history database
-- Cloud deployment
-- User authentication
-
----
-
-## Screenshots
-
-(Add screenshots after deployment)
-
----
-
-## License
-
-This project is intended for educational purposes.
+This project was built as part of my machine learning learning journey and is based on concepts demonstrated in publicly available breast cancer prediction projects. I used it to understand model training, preprocessing, and deployment with Streamlit while experimenting and making my own improvements.
 
 ---
 
 ## Author
 
-**Priyanshu Yadav**
+Priyanshu Yadav
