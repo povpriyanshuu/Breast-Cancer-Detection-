@@ -8,7 +8,7 @@ The application allows users to enter tumor characteristics through an interacti
 
 ## References
 
-- Original demo:
+- Live Version:
   https://alejandro-ao-streamlit-cancer-predict-appmain-uitjy1.streamlit.app/
 
 - Dataset:
