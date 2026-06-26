@@ -1,4 +1,4 @@
-# 🩺 MedVision AI – Breast Cancer Prediction System
+# 🩺 – Breast Cancer Prediction System
 
 ## Overview
 
